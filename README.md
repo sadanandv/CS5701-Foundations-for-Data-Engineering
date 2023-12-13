@@ -6,19 +6,19 @@ This Repository contains the topics discussed in the Foundation for Data Enginee
 The following are the Questions presented at every session:
 
 0. Plot the following functions using Python:
-  a. Plot the function f(x) = x 2 + 2x + 5 in the range −5 ≤ x ≤ 5.
-  b. Plot the Sigmoid Activation Function and its derivative.
-  c. Plot the function g(x) = sin(x) in the range −2π ≤ x ≤ 2π.
-  d. Plot the function h1(x) = e −x in the range −5 ≤ x ≤ 5.
-  e. Plot the function h2(x) = e −|x| in the range −5 ≤ x ≤ 5
-  f. Plot the Tanh Activation Function and its derivative.
-  g. Plot the Parametric Equation x(t) = cos(t), y(t) = sin(t).
-  h. Plot the function f(x) = −x 2 + 2x + 5 in the range −5 ≤ x ≤ 5.
-  i. Plot the ReLU Activation Function and its derivative.
-  j. Plot the function g(x) = ln(x) in the range 0.1 ≤ x ≤ 5
-  k. Plot the Leaky ReLU Activation Function and its derivative.
-  l. Plot the function f(x) = log(x) in the range 0.1 ≤ x ≤ 5.
-  m. Plot the Exponential Linear Unit Activation Function and its derivative.
+    a. Plot the function f(x) = x 2 + 2x + 5 in the range −5 ≤ x ≤ 5.
+    b. Plot the Sigmoid Activation Function and its derivative.
+    c. Plot the function g(x) = sin(x) in the range −2π ≤ x ≤ 2π.
+    d. Plot the function h1(x) = e −x in the range −5 ≤ x ≤ 5.
+    e. Plot the function h2(x) = e −|x| in the range −5 ≤ x ≤ 5
+    f. Plot the Tanh Activation Function and its derivative.
+    g. Plot the Parametric Equation x(t) = cos(t), y(t) = sin(t).
+    h. Plot the function f(x) = −x 2 + 2x + 5 in the range −5 ≤ x ≤ 5.
+    i. Plot the ReLU Activation Function and its derivative.
+    j. Plot the function g(x) = ln(x) in the range 0.1 ≤ x ≤ 5
+    k. Plot the Leaky ReLU Activation Function and its derivative.
+    l. Plot the function f(x) = log(x) in the range 0.1 ≤ x ≤ 5.
+    m. Plot the Exponential Linear Unit Activation Function and its derivative.
 1.	Perform the following using python
   a.	Define and plot the function for a sigmoid, let that be f1(z).
   b.	Derive and plot the derivative of the sigmoid function and let that be f2(z).
