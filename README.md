@@ -2,7 +2,8 @@
 This Repository contains the topics discussed in the Foundation for Data Engineering offered in Shiv Nadar University Chennai to the M.Tech in Artificial Intelligence &amp; Data Science Course.
 
 
-## The following are the Questions presented at every session:
+## Questions  
+The following are the Questions presented at every session:
 
 0. Plot the following functions using Python:
   a. Plot the function f(x) = x 2 + 2x + 5 in the range −5 ≤ x ≤ 5.
