@@ -65,3 +65,10 @@ This repository contains materials and topics discussed in the "Foundations for 
 
     - For `F(x, y) = x^2 + y^2`, find the minimum value using gradient descent.
     - Obtain contour plots for the derived function.
+  
+
+#### Extras
+
+9. AlexNet with Tensorflow
+
+
