@@ -6,8 +6,8 @@ This Repository contains the topics discussed in the Foundation for Data Enginee
 The following are the Questions presented at every session:
 
 0. Plot the following functions using Python:
-    a. Plot the function f(x) = x 2 + 2x + 5 in the range −5 ≤ x ≤ 5.
-    b. Plot the Sigmoid Activation Function and its derivative.
+    i. Plot the function f(x) = x 2 + 2x + 5 in the range −5 ≤ x ≤ 5.
+    ii. Plot the Sigmoid Activation Function and its derivative.
     c. Plot the function g(x) = sin(x) in the range −2π ≤ x ≤ 2π.
     d. Plot the function h1(x) = e −x in the range −5 ≤ x ≤ 5.
     e. Plot the function h2(x) = e −|x| in the range −5 ≤ x ≤ 5
