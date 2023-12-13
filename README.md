@@ -1,77 +1,67 @@
-# CS5701-Foundations-for-Data-Engineering
-This Repository contains the topics discussed in the Foundation for Data Engineering offered in Shiv Nadar University Chennai to the M.Tech in Artificial Intelligence &amp; Data Science Course.
+# CS5701 - Foundations for Data Engineering
 
+This repository contains materials and topics discussed in the "Foundations for Data Engineering" course offered at Shiv Nadar University Chennai for the M.Tech in Artificial Intelligence & Data Science program.
 
-## Questions  
-The following are the Questions presented at every session:
+## Questions and Assignments
 
-0. Plot the following functions using Python:
+### Session Questions
 
-   a. Plot the function f(x) = x 2 + 2x + 5 in the range −5 ≤ x ≤ 5.
+#### Plotting Functions using Python
 
-   b. Plot the Sigmoid Activation Function and its derivative.
+1. Plot the following functions:
 
-   c. Plot the function g(x) = sin(x) in the range −2π ≤ x ≤ 2π.
+    - `f(x) = x^2 + 2x + 5` for −5 ≤ x ≤ 5.
+    - Sigmoid Activation Function and its derivative.
+    - `g(x) = sin(x)` for −2π ≤ x ≤ 2π.
+    - `h1(x) = e^−x` for −5 ≤ x ≤ 5.
+    - `h2(x) = e^−|x|` for −5 ≤ x ≤ 5.
+    - Tanh Activation Function and its derivative.
+    - Parametric Equation `x(t) = cos(t)`, `y(t) = sin(t)`.
+    - `f(x) = −x^2 + 2x + 5` for −5 ≤ x ≤ 5.
+    - ReLU Activation Function and its derivative.
+    - `g(x) = ln(x)` for 0.1 ≤ x ≤ 5.
+    - Leaky ReLU Activation Function and its derivative.
+    - `f(x) = log(x)` for 0.1 ≤ x ≤ 5.
+    - Exponential Linear Unit Activation Function and its derivative.
 
-   d. Plot the function h1(x) = e −x in the range −5 ≤ x ≤ 5.
+#### Python Programming Tasks
 
-   e. Plot the function h2(x) = e −|x| in the range −5 ≤ x ≤ 5
+2. Perform the following using Python:
 
-   f. Plot the Tanh Activation Function and its derivative.
+    - Define and plot a sigmoid function `f1(z)`.
+    - Derive and plot the derivative of the sigmoid function `f2(z)`.
+    - Plot `f3(z) = f1(z) * (1 - f1(z))`.
+    - Plot `f4(z) = f2(z) = f3(z)`.
 
-   g. Plot the Parametric Equation x(t) = cos(t), y(t) = sin(t).
+3. Simple Linear Regression:
 
-   h. Plot the function f(x) = −x 2 + 2x + 5 in the range −5 ≤ x ≤ 5.
+    - Implement Simple Linear Regression using the SKLearn Library.
+    - Plot the regression line on a scatter plot of the data.
+    - Calculate and report the mean squared error of the model.
 
-   i. Plot the ReLU Activation Function and its derivative.
+4. Multiple Linear Regression:
 
-   j. Plot the function g(x) = ln(x) in the range 0.1 ≤ x ≤ 5
+    - Perform Multiple Linear Regression on the FuelConsumption dataset.
+    - Express CO2EMISSIONS as a linear function of `ENGINESIZE`, `CYLINDERS`, and `FUELCONSUMPTION_COMB` using `sklearn.linear_model.LinearRegression()`.
+    - Compute the total squared error.
 
-   k. Plot the Leaky ReLU Activation Function and its derivative.
+5. Exploratory Data Analysis (EDA):
 
-   l. Plot the function f(x) = log(x) in the range 0.1 ≤ x ≤ 5.
+    - Provide statistical information on the dataset.
+    - Analyze the distributions.
+    - Create Box Plots and interpret results from these analyses.
 
-   m. Plot the Exponential Linear Unit Activation Function and its derivative.
+6. Neural Network Implementation:
 
-1.	Perform the following using python
+    - Implement a Neural Network with one hidden layer to perform backpropagation from scratch.
 
-   a.	Define and plot the function for a sigmoid, let that be f1(z).
-   
-   b.	Derive and plot the derivative of the sigmoid function and let that be f2(z).
-   
-   c.	Plot f3(z) = f1(z) * (1-f1(z))
-   
-   d.	Plot f4(z) = f2(z) = f3(z).
-2.	Perform Simple Linear Regression on the given dataset.
+7. Signal Processing:
 
-   a.	Write python code to implement Simple Linear Regression using SKLearn Library
-   
-   b.	Plot the regression line on a scatter plot of the data
-   
-   c.	Calculate and report the mean squared error of your model
+    - Calculate and plot the auto-correlation of signal X.
+    - Calculate and plot the cross-correlation of signals X and Y.
+    - Calculate and plot the convolution of signals X and Y.
 
-3.	Perform Multiple Linear Regression on the FuelConsumption data set. Express CO2EMISSIONS as a liner function of ENGINESIZE', CYLINDERS and FUELCONSUMPTION_COMB using sklearn : linear_model.LinearRegression()Compute the total squarred error in each case.
+8. Gradient Descent:
 
-4.	Perform EDA on the given dataset. 
-
-   a.	Provide Statistical Information on the data
-   
-   b.	Analyze the distributions
-   
-   c.	Create Box Plots and interpret results from each of these analyses
-
-5.	Implement a Neural Network with one hidden layer to perform backpropagation from scratch.
-
-6.	For the given signals x and y, 
-
-   a.	calculate and plot the auto-correlation of X 
-   
-   b.	calculate and plot cross-correlation of x and y 
-   
-   c.	calculate and plot the convolution of X and Y.
-
-7.	Given F(x,y) = x2+ y2
-   
-   a.	Find the Minimum Value of the Function using gradient Descent
-   
-   b.	Obtain Contour Plots for the derived function
+    - For `F(x, y) = x^2 + y^2`, find the minimum value using gradient descent.
+    - Obtain contour plots for the derived function.
