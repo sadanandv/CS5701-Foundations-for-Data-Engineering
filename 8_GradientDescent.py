@@ -1,4 +1,4 @@
-'''Given  f(x,y)=3x 2 +2y 2 - 4x+6y+7 , find the minimum value of the function. Write Python code to find the minimum value of the function using gradient descent. Obtain contour plots of the derived function.'''
+'''8. Given  f(x,y)=3x 2 +2y 2 - 4x+6y+7 , find the minimum value of the function. Write Python code to find the minimum value of the function using gradient descent. Obtain contour plots of the derived function.'''
   
 import numpy as np
 import matplotlib.pyplot as plt
