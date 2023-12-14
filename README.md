@@ -55,7 +55,7 @@ This repository contains materials and topics discussed in the "Foundations for 
 
     - Implement a Neural Network with one hidden layer to perform backpropagation from scratch.
 
-7. Signal Processing:
+7. Correlation abd Convolution:
 
     - Calculate and plot the auto-correlation of signal X.
     - Calculate and plot the cross-correlation of signals X and Y.
