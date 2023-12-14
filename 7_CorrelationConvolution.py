@@ -1,4 +1,4 @@
-'''Given signals x = [1, 2, 3, 4] and y = [4, 3, 2, 1], calculate the autocorrelation of x, the cross-correlation of x and y, and demonstrate the convolution of x and y in 1D.'''
+'''7. Given signals x = [1, 2, 3, 4] and y = [4, 3, 2, 1], calculate the autocorrelation of x, the cross-correlation of x and y, and demonstrate the convolution of x and y in 1D.'''
 
 import numpy as np
 import matplotlib.pyplot as plt
