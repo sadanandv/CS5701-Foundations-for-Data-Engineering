@@ -71,6 +71,5 @@ This repository contains materials and topics discussed in the "Foundations for 
 
 #### Extras
 
-9. AlexNet with Tensorflow
-
-
+9. Implement the AlexNet architecture with Tensorflow to perform Classification of the MNIST Dataset,
+10. Implement a DNN to perform Classification on the MNIST Dataset using PyTorch.
