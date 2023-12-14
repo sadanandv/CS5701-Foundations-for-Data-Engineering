@@ -1,4 +1,4 @@
-'''1.	Perform the following using python
+'''2.	Perform the following using python
 a.	Define and plot the function for a sigmoid, let that be f1(z).
 b.	Derive and plot the derivative of the sigmoid function and let that be f2(z).
 c.	Plot f3(z) = f1(z) * (1-f1(z))
