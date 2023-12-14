@@ -1,4 +1,4 @@
-'''Perform Simple Linear Regression on the given dataset.
+'''3. Perform Simple Linear Regression on the given dataset.
 Write Python code to implement Simple Linear Regression on the provided dataset.
 Plot the regression line on the scatter plot of the data.
 Calculate and report the mean squared error of your model.'''
