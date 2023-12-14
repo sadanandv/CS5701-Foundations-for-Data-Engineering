@@ -47,9 +47,11 @@ This repository contains materials and topics discussed in the "Foundations for 
 
 5. Exploratory Data Analysis (EDA):
 
-    - Provide statistical information on the dataset.
+    - Provide statistical information on the `Mid-Sem-Marks-dataset`.
     - Analyze the distributions.
     - Create Box Plots and interpret results from these analyses.
+    - Perform outlier Detection (using Z-Score and IQR)
+    - Measure Skewness and Kurtosis
 
 6. Neural Network Implementation:
 
