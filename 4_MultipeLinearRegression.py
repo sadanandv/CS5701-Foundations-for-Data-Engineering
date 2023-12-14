@@ -7,7 +7,7 @@ from mpl_toolkits.mplot3d import Axes3D
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
-data = pd.read_csv(r"C:\Users\sadur\OneDrive - SSN Trust\Semester 1\Foundations for Data Engineering\Lab\EndSemSolutions\FuelConsumption.csv")
+data = pd.read_csv(r"C:\Users\sadur\OneDrive - SSN Trust\Semester 1\Foundations for Data Engineering\Lab\Record\FuelConsumption.csv")
 
 # Selecting features and target
 X = data[['ENGINESIZE', 'CYLINDERS', 'FUELCONSUMPTION_COMB']]
@@ -34,4 +34,35 @@ plt.show()
 
 # Compute total squared error
 tse = mean_squared_error(Y, Y_pred) * len(Y)
+print("Total Squared Error:", tse)
+
+
+def mean_squared_error_manual(y_true, y_pred):
+    # Ensure the input arrays have the same length
+    assert len(y_true) == len(y_pred), "Input arrays must have the same length"
+
+    # Calculate the squared differences
+    squared_diff = (y_true - y_pred) ** 2
+
+    # Calculate the mean squared error
+    mse = np.mean(squared_diff)
+    
+    return mse
+
+def total_squared_error_manual(y_true, y_pred):
+    # Ensure the input arrays have the same length
+    assert len(y_true) == len(y_pred), "Input arrays must have the same length"
+
+    # Calculate the squared differences
+    squared_diff = (y_true - y_pred) ** 2
+
+    # Calculate the total squared error
+    tse = np.sum(squared_diff)
+    
+    return tse
+
+mse = mean_squared_error_manual(Y, Y_pred) * len(Y)
+tse = total_squared_error_manual(Y, Y_pred) * len(Y)
+
+print("Mean Squared Error:", mse)
 print("Total Squared Error:", tse)
