@@ -67,10 +67,11 @@ This repository contains materials and topics discussed in the "Foundations for 
 
     - For `F(x, y) = x^2 + y^2`, find the minimum value using gradient descent.
     - Obtain contour plots for the derived function.
-  
 
-#### Extras
+9. Implement the AlexNet architecture with Tensorflow to perform Classification of the MNIST Dataset.
 
-9. Implement the AlexNet architecture with Tensorflow to perform Classification of the MNIST Dataset,
+
 10. Implement a DNN to perform Classification on the MNIST Dataset using PyTorch.
+
+
 11. Perform Advanced Statistical Analysis on the `FuelConsumption` Dataset First, describe the data by plotting the distributions, calculating the variance, Standard devisation, mean, etc of the features. Then calculate the co-variance and corelation coefficient for any two features of the dataset. Do not use inbuilt functions or linbraries to perform the calculations.
